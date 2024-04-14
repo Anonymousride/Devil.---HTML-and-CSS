@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: brown; */
+    padding-right: 5vw;
+}
+.nav h1{
+    font-size: 4vw;
+    padding-left: 3vw ;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+.nav-part2 h4{
+    font-size: 1.4vw;   
+}
+.heading{
+    font-size: 5vw;
+    align-items: center;
+    text-align: center;
+    /* background-color: rgb(149, 212, 212); */
+    padding: 0.8vw;
+    padding-top: 2vw;
+}
+/* .main p{
+    width: 100%;
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 2vw;
+} */
+.para{
+    padding-top: 1.3vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 1vw;
+
+}
+.para p{
+    width: 100%;
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 2vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 1vw;
+    background-color: blanchedalmond;
+}
+.main h2{
+    margin-top: 2vw;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 22vw;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: darkolivegreen; */
+}
+.text-part{
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-2{
+    width: 100%;
+    height: 22vw;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: darkolivegreen; */
+}
+
+.container-3{
+    width: 100%;
+    height: 22vw;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: darkolivegreen; */
+}
+.demon img{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+/* .demon img:hover{
+    scale: 1.13;
+    transition: all ease 1s;
+}
+
+.text-part:hover{
+    scale: 1.13;
+    font-weight: 600;
+    transition: all ease 0.5s;
+} */
+
+.demon:hover{
+    scale: 1.1;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
